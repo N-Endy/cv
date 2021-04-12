@@ -17,6 +17,12 @@ body {
 }
 
 /* Utility Classes */
+.f {display: flex;}
+.h {justify-content: center;}
+.hs {justify-content: flex-start;}
+.hsb {justify-content: space-between;}
+.v {align-items: center;}
+
 .text-align {
     text-align: center;
 }
@@ -38,13 +44,22 @@ body {
     padding: 0.5rem 2rem;
     border: 2px solid #666;
     width: 7rem;
-    z-index: 1;
+    color: #515710;
+}
+
+.location {
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Header */
 .header {
     padding: 0.75rem;
     border-bottom: 2px solid #666;
+}
+
+.header h1 {
+    color: #515710;
 }
 
 /* Competence */
@@ -58,9 +73,6 @@ body {
 }
 
 .competence .competence-flex {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
     margin: 1rem auto;
     padding: 1rem;
     width: 70%;
@@ -79,3 +91,8 @@ body {
     width: 50%;
 }
 
+/* Professional Experience */
+.professional-experience ul li {
+    padding: 0.3rem 1.5rem;
+    list-style: none;
+}
