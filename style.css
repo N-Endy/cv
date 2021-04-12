@@ -33,14 +33,14 @@ body {
     color: #666;
 }
 
-/* .label {
+.label {
     position: relative;
-} */
+}
 
 .middle-tags {
     position: absolute;
-    bottom: 20;
-    left: 45%;
+    top: -30;
+    left: 35%;
     padding: 0.5rem 2rem;
     border: 2px solid #666;
     width: 7rem;
@@ -50,6 +50,10 @@ body {
 .location {
     margin-top: 4rem;
     margin-bottom: 0.5rem;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /* Header */
@@ -93,6 +97,31 @@ body {
 
 /* Professional Experience */
 .professional-experience ul li {
+    padding: 0.3rem 1.5rem;
+    list-style: none;
+}
+
+/* Education */
+.education-text {
+    padding-top: 2rem;
+}
+
+/* Certification */
+.certification ul {
+    margin-top: 1rem;
+}
+
+.certification ul li {
+    padding: 0.3rem 1.5rem;
+    list-style: none;
+}
+
+/* Skills */
+.skills ul {
+    margin-top: 1rem;
+}
+
+.skills ul li {
     padding: 0.3rem 1.5rem;
     list-style: none;
 }
