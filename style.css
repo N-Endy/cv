@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #bbb;
+}
+
+#container {
+    margin: 3rem auto;
+    padding: 3rem 3rem;
+    width: 60%;
+    background: #fff;
+}
+
+/* Utility Classes */
+.text-align {
+    text-align: center;
+}
+
+.horizontal-rule {
+    margin-top: 4rem;
+    width: 100%;
+    color: #666;
+}
+
+/* .label {
+    position: relative;
+} */
+
+.middle-tags {
+    position: absolute;
+    bottom: 20;
+    left: 45%;
+    padding: 0.5rem 2rem;
+    border: 2px solid #666;
+    width: 7rem;
+    z-index: 1;
+}
+
+/* Header */
+.header {
+    padding: 0.75rem;
+    border-bottom: 2px solid #666;
+}
+
+/* Competence */
+.competence > p {
+    padding: 0.75rem 0;
+    text-align: justify;
+}
+
+.competence > h3 {
+    text-decoration: underline;
+}
+
+.competence .competence-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 70%;
+    border: 2px solid #666;
+}
+
+.competence .competence-flex .one {
+    border-right: 2px solid #666;
+}
+
+.competence .competence-flex .two {
+    padding-left: 1rem;
+}
+
+.competence .competence-flex > * {
+    width: 50%;
+}
+
